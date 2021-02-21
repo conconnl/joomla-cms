@@ -1,13 +1,11 @@
 # Project Public Identifier: cms
 project_id: 18
 api_token_env: CROWDIN_PERSONAL_TOKEN
-base_path: language
+base_path: 
 base_url: "https://joomla.crowdin.com"
 
 preserve_hierarchy: true
 
-export_languages:
-  - en-GB
 files:
   - source: /installation/language/en-GB/joomla.ini
     dest: 'JoomlaV4/installation/joomla.ini'
