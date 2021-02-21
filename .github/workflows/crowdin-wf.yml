@@ -19,8 +19,6 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - name: Checkout
       uses: actions/checkout@v2
-      with:
-        ref: 4.0-dev
     
     # Runs the Crowdin action command - https://github.com/crowdin/github-action
     - name: crowdin action
