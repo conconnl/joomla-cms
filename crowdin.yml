@@ -14,7 +14,7 @@ files:
     translation: /installation/language/%locale%/joomla.ini
     update_option: update_as_unapproved
     type: joomla
-		
+
   - source: /installation/language/en-GB/langmetadata.xml
     dest: 'JoomlaV4/installation/langmetadata.xml'
     translation: /installation/language/%locale%/langmetadata.xml
